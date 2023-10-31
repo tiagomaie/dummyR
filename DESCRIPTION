@@ -1,0 +1,25 @@
+Package: dummyR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tiago", "Maié", , "tiagomaie+Rdev@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    assertthat,
+    dplyr,
+    ggplot2,
+    grDevices,
+    testthat
+Suggests: 
+    Biobase (>= 2.56.0)
+Remotes: 
+    bioc::Biobase
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
